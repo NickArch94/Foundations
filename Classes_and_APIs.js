@@ -1,19 +1,18 @@
 // OBJECTS
 let dog = {
-    name: "Phefen",
+    name: "Stephen",
     color: "brown",
     breed: "Pug",
     size: "Small",
-    isGoodWithChildren: false,
-    bark: function(ominous){ //signature:function(parameter)
-        console.log("Björk!");
+    bark: function(Normal){ //signature:function(parameter)
+        console.log("Bark!");
     }
 }
 
 dog.bark();
 
 // PASSING BY VALUE & REFERENCE
-function x(y) { //Avoid using single letter variables if possible
+function x(y) { //Avoid using 'single letter' variables if possible
     y.num = y.num + 5;
     console.log(y);
 }
